@@ -1,11 +1,9 @@
-name = "nfeiuwgcneobqwiuvtcenrbgrwekuncrwebhvbewribcgowergiubcewgriuweb"
+name = "server"
 type = "webpack"
-workers_dev = true
 account_id = "fa5d12d53756c48e3c77b7600d4e2ded"
+workers_dev = true
+route = ""
 zone_id = "b1d2cdf4b5d46f730a0e82e341225e01"
 kv_namespaces = [
-    { binding = "BUCKET", preview_id = "79ef180e3229438099c4aef473d0cae0", id = "nfeiuwgcneobqwiuvtcenrbgrwekuncrwebhvbewribcgowergiubcewgriuweb-BUCKET_preview" }
+         { binding = "BUCKET", id = "7cc5339de5db48cfbdf8eb39e83f00bb" }
 ]
-
-[env.staging]
-name = "drive-staging"
